@@ -1,4 +1,5 @@
-package com.yash.myapp.quizapp;
+package com.example.test.quizapp;
+// This file is created by Yash Soni 
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
