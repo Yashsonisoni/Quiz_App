@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pl"
+    tools:context="com.yash.myapp.quizapp.MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="300dp"
+            android:paddingEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/Question"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+
+            <!-- Question 1-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionOne"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonq1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq1o1"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq1o2"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq1o3"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq1o4"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq1o5"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <!-- Question 2-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionTwo"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <EditText
+                android:id="@+id/q2userans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="@string/hint"
+                android:inputType="textMultiLine"
+                android:textStyle="bold|italic"
+                android:background="@color/edit"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <!--Question 3-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionThree"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq3o1"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq3o2"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq3o3"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton4q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq3o4"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq3o5"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+            </RadioGroup>
+
+            <!--Question 4-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionFour"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox1q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq401"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox2q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq402"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq403"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq404"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <!--Question 5-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionFive"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <EditText
+                android:id="@+id/q5userans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="@string/hint"
+                android:inputType="textMultiLine"
+                android:textStyle="bold|italic"
+                android:background="@color/edit"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <!--Question 6-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionSix"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupq6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonq6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq6o1"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq6o2"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq6o3"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/radioButtonq6o4"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/normalTextSize"
+                    android:textStyle="bold|italic" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewHeight"
+                    android:background="@color/colorview"/>
+
+
+            </RadioGroup>
+            <!--Question 7-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionSeven"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <EditText
+                android:id="@+id/q7userans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="@string/hint"
+                android:inputType="textMultiLine"
+                android:textStyle="bold|italic"
+                android:background="@color/edit"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+            <!-- Question 8-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:id="@+id/q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionEight"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox1q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq801"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox2q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq802"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq803"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq804"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <!--Question 9-->
+
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionNine"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox1q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq901"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox2q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq902"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq903"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkboxq904"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+
+            <!-- Question 10-->
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:text="@string/questionTen"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/normalTextSize"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+            <EditText
+                android:id="@+id/q10userans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="@string/hint"
+                android:inputType="textMultiLine"
+                android:textStyle="bold|italic"
+                android:background="@color/edit"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:background="@color/colorview"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/marginbutton"
+                android:background="@color/buttonbg"
+                android:fontFamily="sans-serif"
+                android:onClick="submitAnswer"
+                android:text="@string/submit"
+                android:textColor="@color/button"
+                android:textStyle="bold|italic"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
